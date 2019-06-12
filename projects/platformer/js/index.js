@@ -59,7 +59,7 @@ $(document).ready(function () {
     }
 
     function collectDb(player, collectable) {
-        game.score.text = 'Score: ' + (parseInt(/\s+(\S*)$/.exec(game.score.text)[1], 10) + collectable.type.points);
+        game.score.text = 'Score:  ' + (parseInt(/\s+(\S*)$/.exec(game.score.text)[1], 10) + collectable.type.points);
         collectable.kill();
     }
 

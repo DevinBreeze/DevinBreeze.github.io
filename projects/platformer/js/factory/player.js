@@ -5,7 +5,7 @@
     let 
         opspark = window.opspark,
         animations = {},
-        spawnX = 30,
+        spawnX = 600,
         spawnY = 0;
         
     opspark.createPlayer = function (game) {
